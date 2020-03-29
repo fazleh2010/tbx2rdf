@@ -61,7 +61,8 @@ public class Main {
     /**
      * Main method. 
      */
-    public static void main(String[] args) {
+   public static void main(String[] args,Boolean lenientValue) {
+        lenient=lenientValue;
         PropertyConfigurator.configure("log4j.properties");
 
         try {
@@ -93,6 +94,7 @@ public class Main {
         }*/
 
     }
+
 
     private static void readConfigurationFile(String propFile) throws Exception {
     	File fileProp = new File(propFile);

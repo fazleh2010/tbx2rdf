@@ -1,0 +1,146 @@
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix :      <http://test.it/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tbx:   <http://tbx2rdf.lider-project.eu/tbx#> .
+@prefix decomp: <http://www.w3.org/ns/lemon/decomp#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ldr:   <http://purl.oclc.org/NET/ldr/ns#> .
+@prefix odrl:  <http://www.w3.org/ns/odrl/2/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+
+<http://test.it/amorfe+halfgeleider-NL>
+        a                      ontolex:LexicalEntry ;
+        dct:language           <http://www.lexvo.org/id/iso639-3/unk> ;
+        tbx:transaction        :TransacGrp-1f962785-f499-4cfe-bc81-93b07cb6e809 , :TransacGrp-afede2e6-2089-43a2-b672-180e324212bd ;
+        <http://www.w3.org/ns/lemon/lime#language>
+                "NL" ;
+        ontolex:canonicalForm  <http://test.it/amorfe+halfgeleider-NL#CanonicalForm> ;
+        ontolex:sense          <http://test.it/amorfe+halfgeleider-NL#Sense> .
+
+<http://test.it/amorphous+semiconductor-EN>
+        a                      ontolex:LexicalEntry ;
+        dct:language           <http://www.lexvo.org/id/iso639-3/unk> ;
+        tbx:transaction        :TransacGrp-b97a2639-0401-4aab-90e5-69520b52f411 , :TransacGrp-2dc94694-2774-4049-a04b-577b1c73cb0f ;
+        <http://www.w3.org/ns/lemon/lime#language>
+                "EN" ;
+        ontolex:canonicalForm  <http://test.it/amorphous+semiconductor-EN#CanonicalForm> ;
+        ontolex:sense          <http://test.it/amorphous+semiconductor-EN#Sense> .
+
+<http://test.it/Zonnepanelen+GD-NL#CanonicalForm>
+        ontolex:writtenRep  "Zonnepanelen GD"@NL .
+
+<http://test.it/Zonnepanelen+GD-NL#Sense>
+        a                             ontolex:LexicalSense ;
+        ontolex:isLexicalizedSenseOf  :c3 .
+
+:c3     a                ontolex:LexicalConcept ;
+        tbx:transaction  :TransacGrp-a1211168-5917-4ea7-83ba-f0dfe31502fc , :TransacGrp-c9fd8858-2dcb-4705-b8b8-0275422f2fc9 .
+
+:NL     a             <http://www.w3.org/ns/lemon/lime#Lexicon> ;
+        dct:language  <http://www.lexvo.org/id/iso639-3/unk> ;
+        <http://www.w3.org/ns/lemon/lime#entry>
+                <http://test.it/Zonnepanelen+GD-NL> , <http://test.it/amorfe+halfgeleider-NL> ;
+        <http://www.w3.org/ns/lemon/lime#language>
+                "NL" .
+
+:TransacGrp-3152e6ce-d275-45de-8194-2d31bcbc804e
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:35:21"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-5502b77f-8bfb-49b8-bfc5-97c742dd73f3 .
+
+:TransacGrp-2dc94694-2774-4049-a04b-577b1c73cb0f
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:20:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-5502b77f-8bfb-49b8-bfc5-97c742dd73f3 .
+
+:       a               tbx:MartifHeader , dcat:Dataset ;
+        <http://purl.org/dc/elements/1.1/source>
+                "TBX file, created via MultiTerm Export" ;
+        dct:type        "TBX" ;
+        tbx:sourceDesc  "<sourceDesc><p>TBX file, created via MultiTerm Export</p></sourceDesc>"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns##XMLLiteral> .
+
+:TransacGrp-b97a2639-0401-4aab-90e5-69520b52f411
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:20:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-5502b77f-8bfb-49b8-bfc5-97c742dd73f3 .
+
+<http://test.it/Zonnepanelen+GD-NL>
+        a                      ontolex:LexicalEntry ;
+        dct:language           <http://www.lexvo.org/id/iso639-3/unk> ;
+        tbx:transaction        :TransacGrp-53103159-756b-468d-9bf3-1018606d4bd4 , :TransacGrp-d05a8f25-b2f4-40aa-95fc-b9cd7baae467 ;
+        <http://www.w3.org/ns/lemon/lime#language>
+                "NL" ;
+        ontolex:canonicalForm  <http://test.it/Zonnepanelen+GD-NL#CanonicalForm> ;
+        ontolex:sense          <http://test.it/Zonnepanelen+GD-NL#Sense> .
+
+:Agent-5502b77f-8bfb-49b8-bfc5-97c742dd73f3
+        a           prov:Agent ;
+        rdfs:label  "joost" .
+
+:Agent-6e02391d-69c8-4af6-974f-08a6dcec1e0c
+        a           prov:Agent ;
+        rdfs:label  "super" .
+
+<http://test.it/amorphous+semiconductor-EN#CanonicalForm>
+        ontolex:writtenRep  "amorphous semiconductor"@EN .
+
+:TransacGrp-53103159-756b-468d-9bf3-1018606d4bd4
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:20:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-5502b77f-8bfb-49b8-bfc5-97c742dd73f3 .
+
+:TransacGrp-1f962785-f499-4cfe-bc81-93b07cb6e809
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:20:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-5502b77f-8bfb-49b8-bfc5-97c742dd73f3 .
+
+:TransacGrp-c9fd8858-2dcb-4705-b8b8-0275422f2fc9
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:04:31"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-6e02391d-69c8-4af6-974f-08a6dcec1e0c .
+
+:TransacGrp-3ea2e5f4-159e-4e3a-91f4-88a1742e9cb9
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:04:31"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-6e02391d-69c8-4af6-974f-08a6dcec1e0c .
+
+:Genterm3  a             ontolex:LexicalConcept ;
+        tbx:transaction  :TransacGrp-3152e6ce-d275-45de-8194-2d31bcbc804e , :TransacGrp-3ea2e5f4-159e-4e3a-91f4-88a1742e9cb9 .
+
+<http://test.it/amorfe+halfgeleider-NL#CanonicalForm>
+        ontolex:writtenRep  "amorfe halfgeleider"@NL .
+
+:TransacGrp-a1211168-5917-4ea7-83ba-f0dfe31502fc
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:04:31"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-6e02391d-69c8-4af6-974f-08a6dcec1e0c .
+
+<http://test.it/amorphous+semiconductor-EN#Sense>
+        a                             ontolex:LexicalSense ;
+        ontolex:isLexicalizedSenseOf  :Genterm3 .
+
+:EN     a             <http://www.w3.org/ns/lemon/lime#Lexicon> ;
+        dct:language  <http://www.lexvo.org/id/iso639-3/unk> ;
+        <http://www.w3.org/ns/lemon/lime#entry>
+                <http://test.it/amorphous+semiconductor-EN> ;
+        <http://www.w3.org/ns/lemon/lime#language>
+                "EN" .
+
+:TransacGrp-d05a8f25-b2f4-40aa-95fc-b9cd7baae467
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:20:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-5502b77f-8bfb-49b8-bfc5-97c742dd73f3 .
+
+<http://test.it/amorfe+halfgeleider-NL#Sense>
+        a                             ontolex:LexicalSense ;
+        ontolex:isLexicalizedSenseOf  :Genterm3 .
+
+:TransacGrp-afede2e6-2089-43a2-b672-180e324212bd
+        a                       prov:Activity , tbx:transaction ;
+        prov:endedAtTime        "2018-12-14T16:20:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        prov:wasAssociatedWith  :Agent-5502b77f-8bfb-49b8-bfc5-97c742dd73f3 .

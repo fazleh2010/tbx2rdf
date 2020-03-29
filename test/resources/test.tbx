@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-16"?>
+<martif
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="TBXcsV02.xsd"
+        type="TBX"
+      xml:lang="en"
+      >
+  <martifHeader>
+    <fileDesc>
+      <sourceDesc>
+        <p>TBX file, created via MultiTerm Export</p>
+      </sourceDesc>
+    </fileDesc>
+  </martifHeader>
+
+  <text>
+    <body>
+
+<termEntry id="c3">
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">origination</transac>
+		<date>2018-12-14T16:04:31</date>
+		<transacNote type="responsibility">super</transacNote>
+	</transacGrp>
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">modification</transac>
+		<date>2018-12-14T16:04:31</date>
+		<transacNote type="responsibility">super</transacNote>
+	</transacGrp>
+<langSet xml:lang="NL">
+	<tig>
+	<term>Zonnepanelen GD</term>
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">origination</transac>
+		<date>2018-12-14T16:20:51</date>
+		<transacNote type="responsibility">joost</transacNote>
+	</transacGrp>
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">modification</transac>
+		<date>2018-12-14T16:20:51</date>
+		<transacNote type="responsibility">joost</transacNote>
+	</transacGrp>
+		<descripGrp>
+			<descrip type="Datum">2010</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Auteur">Gregory Depuydt</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Begeleider">Joost Buysschaert</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Talen">nl, en</descrip>
+		</descripGrp>
+	</tig>
+</langSet>
+</termEntry>
+
+
+<termEntry id="Genterm3">
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">origination</transac>
+		<date>2018-12-14T16:04:31</date>
+		<transacNote type="responsibility">super</transacNote>
+	</transacGrp>
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">modification</transac>
+		<date>2018-12-14T16:35:21</date>
+		<transacNote type="responsibility">joost</transacNote>
+	</transacGrp>
+<descripGrp>
+	<descrip type="Vakgebied">photovoltaic elements, solar cells and solar cell array (batteries, panels)</descrip>
+</descripGrp>
+<descripGrp>
+	<descrip type="UDC">621.383.51</descrip>
+</descripGrp>
+<descripGrp>
+	<descrip type="Project">Zonnepanelen GD</descrip>
+</descripGrp>
+<descripGrp>
+	<descrip type="Werkcode">GD 01</descrip>
+</descripGrp>
+<descripGrp>
+	<descrip type="Begrip">niet-kristallijne halfgeleidermateriaal, makkelijker en goedkoper te produceren dan kristallijn maar is minder efficiënt en wordt sneller onbruikbaar.</descrip>
+</descripGrp>
+<descripGrp>
+	<descrip type="Nl-term">amorfe halfgeleider</descrip>
+</descripGrp>
+<descripGrp>
+	<descrip type="En-term">amorphous semiconductor</descrip>
+</descripGrp>
+<langSet xml:lang="EN">
+	<tig>
+	<term>amorphous semiconductor</term>
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">origination</transac>
+		<date>2018-12-14T16:20:51</date>
+		<transacNote type="responsibility">joost</transacNote>
+	</transacGrp>
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">modification</transac>
+		<date>2018-12-14T16:20:51</date>
+		<transacNote type="responsibility">joost</transacNote>
+	</transacGrp>
+		<descripGrp>
+			<descrip type="Trefwoord">amorphous</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Flexie">plu amorphous semiconductors</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Uitspraak">GB /??m?:f?s/ /,semik?n?d?kt?/ US /??m?:rf?s/ /,semik?n?d?kt?r/ LDCE</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Extrainfo">&lt;Extrasyn&gt;n&gt;</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Definitie">A noncrystalline (sic) semiconductor that has unique optical and electrical properties applicable to luminescent display panels, fast electric switching, and memory devices. (Markus, J. 19)</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Contexten">Illumination of amorphous semiconductors (a-semiconductors) with light, having a photon energy comparable with or smaller than that of the bandgap, induces various changes on structural and electronic properties of a material. (Singh, Jai 277)
+Among the various amorphous semiconductors, hydrogenated amorphous silicon (a-Si:H), which contains substantial amount of hydrogen (up to about 15%), has become one of the most attractive materials for a variety of applications. The feasibility of using a-Si:H in such device applications as, e.g. photovoltaic solar cells and thin-film field-effect transistors (employed in liquid crystal displays and large-area detectors including medical X-ray imaging) is based on the effect of hydrogen passivation of defects (e.g., by attaching hydrogen to the dangling bonds) in amorphous silicon matrix (see Fig. 6.8). (Yacobi, B.G. 156)
+Besides the thin-film solar cells, plasma-deposited amorphous semiconductors are proposed as promising materials to prepare photo- and electroluminescent devices. (Biederman, Hynek, 200)</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Overige bronnen">Kanicki, J. 347, Dalven, R. 167, Orton, J.W. 462, BigFrogMountain 2009-12-08, Schrijber, R.A. 170, Sunrun 2009-12-08</descrip>
+		</descripGrp>
+	</tig>
+</langSet>
+<langSet xml:lang="NL">
+	<tig>
+	<term>amorfe halfgeleider</term>
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">origination</transac>
+		<date>2018-12-14T16:20:51</date>
+		<transacNote type="responsibility">joost</transacNote>
+	</transacGrp>
+	<transacGrp>
+		<transac type="terminologyManagementTransactions">modification</transac>
+		<date>2018-12-14T16:20:51</date>
+		<transacNote type="responsibility">joost</transacNote>
+	</transacGrp>
+		<descripGrp>
+			<descrip type="Trefwoord">amorf</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Flexie">plu amorfe halfgeleiders</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Extrainfo">semigeleider Euroinvester 2010-01-1313</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Boven">dunne film</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Commentaar">In de geraadpleegde bronnen hebben wij geen definitie gevonden voor de term
+„amorfe halfgeleider?. Wij verwijzen daarom naar de definities van de samenstellende delen. amorf: kristallografisch niet gestructureerd (cf. poly-elektronica, B2/64); zonder
+(macro)kristallijne structuur, de atomen vertonen geen geordende structuur (cf. Wikipedia_nl 2009-12-04 sub amorf); halfgeleider: materiaal waarin de elektronen bij lage temperatuur aan hun atomen gebonden zijn en zich niet vrij door het kristal kunnen bewegen (poly-elektronica, B2/3)</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Contexten">Het middellangetermijn-PV-onderzoek zou naast optimalisatie van bestaande polykristallijne silicium cellen ook de studie van meerlagenstructuren van amorfe halfgeleiders moeten omvatten. (Verbong, G. 218)
+Amorfe halfgeleiders spelen een belangrijke rol bij fotovoltaïsche systemen. (FOM 56)
+Het feit dat de opgedampte polykristallijne of amorfe halfgeleiders een aanzienlijk lagere ladingsdragersmobiliteit vertonen dan monokristallijn Si heeft uiteindelijk wel de dunnefilmtechnologie naar het achterplan verschoven. (De Smet, H. 17 2009-11-24)</descrip>
+		</descripGrp>
+		<descripGrp>
+			<descrip type="Overige bronnen">Schrijber, R.A. 170, IATE 2009-11-25</descrip>
+		</descripGrp>
+	</tig>
+</langSet>
+</termEntry>
+</body>
+  </text>
+
+</martif>
